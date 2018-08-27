@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "https"]
+	url = https://github.com/qhlsgit/myown.git
+	fetch = +refs/heads/*:refs/remotes/https/*
+[remote "origin"]
+	url = git@github.com:qhlsgit/myown.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gui]
+	wmstate = normal
+	geometry = 835x475+162+150 185 214
